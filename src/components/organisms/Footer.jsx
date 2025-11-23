@@ -1,14 +1,14 @@
 export default function Footer() {
   return (
-    <footer class="py-12">
-      <div class="max-w-7xl mx-auto px-6">
+    <footer class="py-10 sm:py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex flex-col lg:flex-row gap-12">
           <div class="flex-shrink-0 lg:flex lg:flex-col lg:justify-center">
             <div>
               <div class="flex items-center mb-4">
-                <img src="assets/Logo.png" alt="Chill Logo" class="h-12" />
+                <img src="assets/Logo.png" alt="Chill Logo" class="h-8 sm:h-12" />
               </div>
-              <p class="text-gray-400 text-sm">
+              <p class="text-gray-400 text-xs sm:text-sm">
                 ©2025 Chill All Rights Reserved.
               </p>
             </div>
@@ -16,7 +16,7 @@ export default function Footer() {
 
           <div class="flex-1 grid grid-cols-1 md:grid-cols-5 gap-8 lg:gap-12">
             <div>
-              <h3 class="text-lg font-semibold mb-6">Genre</h3>
+              <h3 class="ttext-base sm:text-lg font-semibold mb-4 sm:mb-6">Genre</h3>
               <ul class="space-y-3 text-gray-300">
                 <li>
                   <a href="#" class="hover:text-white transition-colors">
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <div class="h-6 mb-6"></div>
+              <div class="h-6 mb-4 sm:mb-6"></div>
               <ul class="space-y-3 text-gray-300">
                 <li>
                   <a href="#" class="hover:text-white transition-colors">
@@ -68,7 +68,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <div class="h-6 mb-6"></div>
+              <div class="h-6 mb-4 sm:mb-6"></div>
               <ul class="space-y-3 text-gray-300">
                 <li>
                   <a href="#" class="hover:text-white transition-colors">
@@ -110,7 +110,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h3 class="text-lg font-semibold mb-6">Bantuan</h3>
+              <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">Bantuan</h3>
               <ul class="space-y-3 text-gray-300">
                 <li>
                   <a href="#" class="hover:text-white transition-colors">FAQ</a>
